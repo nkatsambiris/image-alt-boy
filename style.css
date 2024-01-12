@@ -1,0 +1,24 @@
+.image-alt-boy-process-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.alt-boy-btn-spinner {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgb(34 113 177);
+    border-radius: 50%;
+    border-top: 2px solid #fff;
+    animation: alt-boy-btn-spin 1s ease-in-out infinite;
+    -webkit-animation: alt-boy-btn-spin 1s ease-in-out infinite;
+}
+
+@keyframes alt-boy-btn-spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes alt-boy-btn-spin {
+    to { -webkit-transform: rotate(360deg); }
+}
