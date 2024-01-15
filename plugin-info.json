@@ -1,13 +1,13 @@
 {
     "name": "Image Alt Boy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Nicholas Katsambiris",
     "requires": "5.8",
-    "tested": "6.4.1",
-    "last_updated": "2024-01-12",
+    "tested": "6.4.2",
+    "last_updated": "2024-01-15",
     "sections": {
         "description": "<p>A Wordpress plugin that connects to OpenAI to generate an image description for your media library attachments.</p><h3>Installation</h3><ol><li>Download the plugin from the <a href=\"https://github.com/nkatsambiris/image-alt-boy\">GitHub repository</a>.</li><li>Log in to your WordPress dashboard.</li><li>Go to Plugins > Add New.</li><li>Click on the Upload Plugin button, and choose the downloaded zip file.</li><li>Click on Install Now and then Activate.</li></ol><h3>Updating Settings</h3><ol><li>Go to Settings > Image Alt Boy.</li><li>Enter your OpenAI API Key.</li><li>Click on Save Changes.</li></ol><h3>Generating Image Alt Description</h3><ol><li>Navigate to your media library click on the image you wish to generate a meta description for and click the Generate Alt Description button.</li></ol>",
-        "changelog": "<strong>1.0.0</strong><ul><li>Initial commit.</li></ul>"
+        "changelog": "<strong>1.0.1</strong><ul><li>Tested up to version bump.</li></ul><strong>1.0.0</strong><ul><li>Initial commit.</li></ul>"
     },
     "download_link": "https://github.com/nkatsambiris/image-alt-boy/archive/refs/heads/main.zip"
 }
