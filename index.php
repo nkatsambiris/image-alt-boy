@@ -2,12 +2,12 @@
 /**
 * Plugin Name: Image Alt Boy
 * Description: Auto-generates alt descriptions for media library attachments
-* Version: 1.0.0
+* Version: 1.0.1
 * Plugin URI:  https://www.katsambiris.com
 * Author: Nicholas Katsambiris
 * Update URI: image-alt-boy
 * License: GPL v3
-* Tested up to: 6.3
+* Tested up to: 6.4
 * Requires at least: 6.2
 * Requires PHP: 7.4.2
 *
@@ -252,7 +252,7 @@ function image_alt_boy_check_for_update($transient) {
         return $transient;
     }
 
-    $updater = new My_Plugin_Updater('1.0.0', 'https://raw.githubusercontent.com/nkatsambiris/image-alt-boy/main/updates.json');
+    $updater = new My_Plugin_Updater('1.0.1', 'https://raw.githubusercontent.com/nkatsambiris/image-alt-boy/main/updates.json');
     $update_data = $updater->check_for_update();
 
     if ($update_data) {
